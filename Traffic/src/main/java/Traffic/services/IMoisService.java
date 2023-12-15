@@ -1,5 +1,10 @@
 package Traffic.services;
 
-public interface IMoisService {
+import java.util.List;
 
+import Traffic.entites.Mois;
+
+public interface IMoisService {
+	//pour afficher la liste des données par mois
+	public List<Mois> afficherListMois();
 }
